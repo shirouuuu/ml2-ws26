@@ -1,3 +1,15 @@
+# Ignore the pinned Python version file
+.python-version
+
+# Ignore the project configuration file
+pyproject.toml
+
+# Ignore the source code directory
+src/
+
+# Ignore the uv lockfile
+uv.lock
+
 *openml*
 *MNIST*
 *.pt
@@ -213,3 +225,7 @@ marimo/_lsp/
 __marimo__/
 
 CLAUDE.md
+
+# Private teaching material (lecture plans etc.)
+teaching/
+solutions/video/
